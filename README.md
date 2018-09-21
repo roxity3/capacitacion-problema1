@@ -3,7 +3,7 @@ Capacitación: Git, bash y docker
 Integrantes:
 - [Erika Tinoco]
 - [Ronald Cutisaca]
-
+- [Scrum Master]
 1. ¿Qué es y para qué sirve GIT?
 	Es un sistema de control de versiones, sirve para poder trabajar en un mismo proyecto de forma colaborativa.
 2. ¿Que es Github o bitbucket?

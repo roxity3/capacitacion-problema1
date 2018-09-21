@@ -19,3 +19,15 @@ Integrantes:
 	git init
 	Para configurarlo:
 	git config
+
+¿Porqué es necesario crear un contenedor con esta bandera -it ? ¿Qué pasa si no le pongo -it?
+
+Es necesario para poder interactuar con el contenedor y ejecutar procesos dentro del mismo. Si no lo incluyo, no permitiría interactuar con el contenedor, sino que se ejecutaría en background los procesos que se establezcan.
+
+¿Para qué sirve ejecutar el comando bash al ejecutar una imagen?
+
+Para poder interactuar con la interfaz por defecto de un contenedor.
+
+ ¿Cuál es la diferencia entre docker ps y docker ps -a?
+
+ El docker ps lista los contenedores que están activos, mientras que con ps -a podemos ver todos los que existen.

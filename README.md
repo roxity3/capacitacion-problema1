@@ -3,7 +3,7 @@ Capacitación: Git, bash y docker
 Integrantes:
 - [Erika Tinoco]
 - [Ronald Cutisaca]
-
+- [Scrum Master]
 1. ¿Qué es y para qué sirve GIT?
 2. ¿Que es Github o bitbucket?
 3. ¿Qué es y para qué sirve el SSH?

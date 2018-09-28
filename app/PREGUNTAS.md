@@ -31,3 +31,22 @@ Para poder interactuar con la interfaz por defecto de un contenedor.
  ¿Cuál es la diferencia entre docker ps y docker ps -a?
 
  El docker ps lista los contenedores que están activos, mientras que con ps -a podemos ver todos los que existen.
+
+1. ¿Qué es NGINX?
+
+Es un servidor web de código abierto que puede ser usado como proxy inverso, caché de HTTP y balanceador de carga.
+
+2. ¿Cómo expongo puertos en docker?
+
+Docker CLI: Utilizando el parámetro "-p" más el puerto que se desea exponer.
+Docker-compose: Utilizando el tag "ports:".
+
+3. ¿Cómo especifico los puertos al levantar un contenedor (docker run)?
+
+$ docker run -d -p "8080:80" nginx
+
+En el ejemplo: se añade el parámetro "-p" y el value "8080:80", donde 8080 es el puerto del host y el 80 el de nginx.
+
+4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
+-p 8080
+

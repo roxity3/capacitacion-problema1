@@ -1,3 +1,5 @@
-FROM node:10.10.0-slim
+FROM nginx:alpine
 RUN mkdir app
-COPY ./PREGUNTAS.md /app 
+
+# copiamos el archivo
+# COPY ./PREGUNTAS.md /app
